@@ -12,8 +12,8 @@ export default function Home() {
             <h2> Welcome to My Website!!</h2>
             <p> have a look at the buttons below to navigate through the website</p>
             <div className= "grid grid-cols-3 gap-2 text-center">
-              <button type="button"><a href = "portfolio.tsx">bacon</a></button>
-              <button type="button"><a href = "about.tsx">bacon</a></button>
+              <button>bacon</button>
+              <button type="button">bacon</button>
               <button type="button">bacon</button>
             </div>
           </div>
