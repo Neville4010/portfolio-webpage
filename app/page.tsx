@@ -3,15 +3,15 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className = "w-auto flex-auto bg-red-50 p-5">
-        <header> this is the header</header>
+      <div className = "header w-auto flex-auto p-5">
+        <button className = "button daynightbutton"> day</button>
       </div>
-      <div className = "w-auto h-screen flex-auto bg-yellow-50">
-        <div className = "basis-xl flex pt-50 pb-50 block-size-100 bg-sky-500 justify-center items-center">
-          <div className = "w-150 h-100 items-center bg-red-200">
-            <h2> Welcome to My Website!!</h2>
-            <p> have a look at the buttons below to navigate through the website</p>
-            <div className= "grid grid-cols-3 gap-2 text-center">
+      <div className = "mainscreen w-auto h-screen flex-auto">
+        <div className = "basis-xl flex pt-40 pb-40 block-size-100 justify-center items-center">
+          <div className = "mainblock w-220 h-150 items-center">
+            <h2 className="p-2"> Welcome to My Website!!</h2>
+            <p className = "w-220 h-120 text-center"> have a look at the buttons below to navigate through the website</p>
+            <div className= "grid grid-cols-3 gap-2 text-center bottom-0">
               <button type="button"><a href = "portfolio.tsx">bacon</a></button>
               <button type="button"><a href = "about.tsx">bacon</a></button>
               <button type="button">bacon</button>
