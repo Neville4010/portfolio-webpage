@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
             <h2 className="p-2"> Welcome to My Website!!</h2>
             <p className = "w-220 h-120 text-center"> have a look at the buttons below to navigate through the website</p>
             <div className= "grid grid-cols-3 gap-2 text-center bottom-0">
-              <button type="button"><a href = "portfolio.tsx">bacon</a></button>
-              <button type="button"><a href = "about.tsx">bacon</a></button>
+              <button type="button"><Link href = "/About">About</Link></button>
+              <button type="button"><Link href = "/Portfolio">Portfolio</Link></button>
               <button type="button">bacon</button>
             </div>
           </div>
