@@ -1,25 +1,73 @@
 @import "tailwindcss";
 
-:root {
-  --background: #340b0b;
-  --foreground: #EBFDFF;
-}
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-mono: var(--font-Courier-New);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #5A86AF;
-    --foreground: #671616;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: 'Courier New';
+}
+
+.header {
+  background : #538dc3;  
+}
+
+.footer {
+  background : #538dc3;  
+}
+
+.mainscreen {
+  background: #EBFDFF
+}
+
+.mainblock {
+  background: #726DA8;
+  color: #EBFDFF;
+}
+
+.button {
+  border: 2px solid #726DA8;
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.linkbutton {
+  border: 2px solid white;
+  background-color: #726DA8;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.linkbutton:hover {
+  border: 2px solid #726DA8;
+  color: black;
+  background-color: white;
+}
+
+.button:hover {
+  border: 2px solid white;
+  background-color: #726DA8;
+  color: white;
+}
+.daynightbutton:hover {
+  border: 2px solid white;
+  background-color: #726DA8;
+  color: white;
 }
