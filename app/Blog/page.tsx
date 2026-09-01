@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-export default function About() {
+export default function Blog() {
   return (
     <main>
       <div className = "mainscreen w-auto h-screen flex-auto">
-        <h1> About</h1>
+        <h1>Blog</h1>
       </div>
     </main>
   );

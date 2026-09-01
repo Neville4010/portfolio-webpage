@@ -14,6 +14,10 @@ body {
   background : #538dc3;  
 }
 
+.footer {
+  background : #538dc3;  
+}
+
 .mainscreen {
   background: #EBFDFF
 }
@@ -24,7 +28,22 @@ body {
 }
 
 .button {
-  border: none;
+  border: 2px solid #726DA8;
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.linkbutton {
+  border: 2px solid white;
+  background-color: #726DA8;
   color: white;
   padding: 10px 10px;
   text-align: center;
@@ -36,13 +55,19 @@ body {
   cursor: pointer;
 }
 
-.daynightbutton {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #04AA6D;
+.linkbutton:hover {
+  border: 2px solid #726DA8;
+  color: black;
+  background-color: white;
 }
 
+.button:hover {
+  border: 2px solid white;
+  background-color: #726DA8;
+  color: white;
+}
 .daynightbutton:hover {
-  background-color: #04AA6D;
+  border: 2px solid white;
+  background-color: #726DA8;
   color: white;
 }

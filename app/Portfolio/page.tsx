@@ -3,7 +3,9 @@ import Link from 'next/link';
 export default function Portfolio() {
   return (
     <main>
-      <h2>Portfolio</h2>
+      <div className = "mainscreen w-auto h-screen flex-auto">
+        <h1> Portfolio</h1>
+      </div>
     </main>
   );
 }
