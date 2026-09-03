@@ -3,6 +3,10 @@
 
 @theme inline {
   --font-mono: var(--font-Courier-New);
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 40rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
 }
 
 
